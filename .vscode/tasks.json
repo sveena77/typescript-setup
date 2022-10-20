@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "restart webserver",
+      "type": "shell",
+      "command": "docker compose restart webserver",
+      "presentation": {
+        "reveal": "never"
+      }
+    }
+  ]
+}
